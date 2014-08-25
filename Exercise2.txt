@@ -1,0 +1,13 @@
+Microsoft Windows [version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Alle rettigheder forbeholdes.
+
+C:\Users\Tenna Ørum>cd Dokumenter
+
+C:\Users\Tenna Ørum\Dokumenter>mkdir xyz
+
+C:\Users\Tenna Ørum\Dokumenter>cd xyz
+
+C:\Users\Tenna Ørum\Dokumenter\xyz>Echo %CD%
+C:\Users\Tenna Ørum\Dokumenter\xyz
+
+C:\Users\Tenna Ørum\Dokumenter\xyz>

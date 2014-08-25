@@ -1,0 +1,32 @@
+
+C:\>cd Users\Tenna Ørum\Dokumenter\xyz
+
+C:\Users\Tenna Ørum\Dokumenter\xyz>del def.txt
+
+C:\Users\Tenna Ørum\Dokumenter\xyz>dir
+ Disken i drev C har ikke noget navn.
+ Diskens serienummer er A6AF-0DB9
+
+ Indhold af C:\Users\Tenna Ørum\Dokumenter\xyz
+
+21-08-2014  11:26    <DIR>          .
+21-08-2014  11:26    <DIR>          ..
+21-08-2014  11:20                 0 abc.txt
+               1 fil(er)                0 byte
+               2 mappe(r)  267.983.851.520 byte ledig
+
+C:\Users\Tenna Ørum\Dokumenter\xyz>rename "abc.txt" "xyz.txt"
+
+C:\Users\Tenna Ørum\Dokumenter\xyz>dir
+ Disken i drev C har ikke noget navn.
+ Diskens serienummer er A6AF-0DB9
+
+ Indhold af C:\Users\Tenna Ørum\Dokumenter\xyz
+
+21-08-2014  11:26    <DIR>          .
+21-08-2014  11:26    <DIR>          ..
+21-08-2014  11:20                 0 xyz.txt
+               1 fil(er)                0 byte
+               2 mappe(r)  267.983.851.520 byte ledig
+
+C:\Users\Tenna Ørum\Dokumenter\xyz>

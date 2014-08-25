@@ -1,0 +1,37 @@
+
+C:\Users\Tenna Ørum\Dokumenter\xyz>cd..
+
+C:\Users\Tenna Ørum\Dokumenter>dir
+ Disken i drev C har ikke noget navn.
+ Diskens serienummer er A6AF-0DB9
+
+ Indhold af C:\Users\Tenna Ørum\Dokumenter
+
+Filen blev ikke fundet.
+
+C:\Users\Tenna Ørum\Dokumenter>cd\
+
+C:\>dir
+ Disken i drev C har ikke noget navn.
+ Diskens serienummer er A6AF-0DB9
+
+ Indhold af C:\
+
+19-01-2014  13:02               178 camera.log
+17-05-2012  01:16    <DIR>          EFI
+07-02-2014  13:40                 0 END
+11-02-2014  22:28    <DIR>          Games
+19-01-2014  13:02             4.286 HPCamDrv.log
+19-01-2014  11:14    <DIR>          HPSDM
+22-01-2014  11:02    <DIR>          java
+19-01-2014  13:13             2.651 pdfco.log
+14-07-2009  05:20    <DIR>          PerfLogs
+17-08-2014  16:41    <DIR>          Program Files
+19-08-2014  10:44    <DIR>          Program Files (x86)
+19-01-2014  11:13    <DIR>          swsetup
+18-01-2014  13:43    <DIR>          Users
+17-08-2014  16:43    <DIR>          Windows
+               4 fil(er)            7.115 byte
+              10 mappe(r)  267.983.781.888 byte ledig
+
+C:\>
