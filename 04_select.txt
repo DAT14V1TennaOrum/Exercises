@@ -1,0 +1,109 @@
+1. SELECT name FROM customers;
+
+Claus
+Tove
+Svend
+Per
+Bent
+Thor
+Hanne
+Søren
+Per
+Ytring
+Pavel
+Ulla
+
+2. SELECT name, last_name FROM customers;
+
+Claus	Bové
+Tove	Hansen
+Svend	Guttormsen
+Per	Hansen
+Bent	Torstensen
+Thor	Thorsen
+Hanne	Flim
+Søren	Sørensen
+Per	Holst
+Ytring	Hanibal
+Pavel	Slipovitch
+Ulla	Jensen
+
+3. SELECT name, last_name, phone, email FROM customers;
+
+Claus	Bové	26252423	clbo@kea.dk
+Tove	Hansen	33224455	tove@kea.dk
+Svend	Guttormsen	76554466	sven@kea.dk
+Per	Hansen	22331122	perh@kea.dk
+Bent	Torstensen	76548762	bent@kea.dk
+Thor	Thorsen	11221122	thor@kea.dk
+Hanne	Flim	10202233	hann@kea.dk
+Søren	Sørensen	33124465	sore@kea.dk
+Per	Holst	23112210	pero@kea.dk
+Ytring	Hanibal	99998876	ytri@kea.dk
+Pavel	Slipovitch	82647351	pave@kea.dk
+Ulla	Jensen	66778899	ulla@kea.dk
+
+4. SELECT email, phone FROM customers;
+
+clbo@kea.dk	26252423
+tove@kea.dk	33224455
+sven@kea.dk	76554466
+perh@kea.dk	22331122
+bent@kea.dk	76548762
+thor@kea.dk	11221122
+hann@kea.dk	10202233
+sore@kea.dk	33124465
+pero@kea.dk	23112210
+ytri@kea.dk	99998876
+pave@kea.dk	82647351
+ulla@kea.dk	66778899
+
+5. SELECT * FROM customers;
+
+1	Claus	Bové	26252423	clbo@kea.dk
+2	Tove	Hansen	33224455	tove@kea.dk
+3	Svend	Guttormsen	76554466	sven@kea.dk
+4	Per	Hansen	22331122	perh@kea.dk
+5	Bent	Torstensen	76548762	bent@kea.dk
+6	Thor	Thorsen	11221122	thor@kea.dk
+7	Hanne	Flim	10202233	hann@kea.dk
+8	Søren	Sørensen	33124465	sore@kea.dk
+9	Per	Holst	23112210	pero@kea.dk
+10	Ytring	Hanibal	99998876	ytri@kea.dk
+11	Pavel	Slipovitch	82647351	pave@kea.dk
+12	Ulla	Jensen	66778899	ulla@kea.dk
+
+6. SELECT * FROM customers WHERE last_name = 'Hansen';
+
+
+2	Tove	Hansen	33224455	tove@kea.dk
+4	Per	Hansen	22331122	perh@kea.dk
+
+7. SELECT name, last_name FROM customers WHERE name = 'Per';
+
+Per	Hansen
+Per	Holst
+
+8. SELECT * FROM customers WHERE phone = 82647351;
+
+11	Pavel	Slipovitch	82647351	pave@kea.dk
+
+9. SELECT name, phone FROM customers WHERE email = 'bent@kea.dk';
+
+Bent	76548762
+
+10. SELECT id FROM customers WHERE email = 'pave@kea.dk';
+
+
+11
+
+11. SELECT * FROM customers WHERE last_name = 'Slipovitch';
+
+11	Pavel	Slipovitch	82647351	pave@kea.dk
+
+12. SELECT name, last_name FROM customers WHERE name = 'Claus';
+
+Claus	Bové
+
+
+
